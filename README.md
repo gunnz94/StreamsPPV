@@ -1,4 +1,4 @@
-# TESTLGPPV Stremio Addon
+# StreamsPPV Stremio Addon
 
 A Stremio addon that provides streaming content for Movies, Series, and Channels.
 
@@ -21,7 +21,7 @@ A Stremio addon that provides streaming content for Movies, Series, and Channels
 - **Movies**: Provides test movie content
 - **Series**: Provides test series content  
 - **Channels**: Provides test TV channel content
-- **Direct Streaming**: All content streams from `https://gg.poocloud.in/cows/tracks-v1a1/mono.ts.m3u8`
+- **Direct Streaming**: All content streams from sources.
 
 ## Configuration
 
@@ -33,3 +33,4 @@ The addon will start on a random available port. Check the console output for th
 - `addon.js` - Main addon logic
 - `package.json` - Node.js dependencies
 - `README.md` - This file
+
