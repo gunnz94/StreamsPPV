@@ -1,0 +1,31 @@
+{
+  "name": "streamsppv-stremio-addon",
+  "version": "2.0.0",
+  "description": "StreamsPPV Stremio addon for Movies, Series, and Channels",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js",
+    "dev": "node addon.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "http-proxy-middleware": "^2.0.9",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.35.0",
+    "puppeteer-core": "^24.35.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "stremio-addon-sdk": "^1.6.10"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "streaming"
+  ],
+  "author": "Gunnz",
+  "license": "MIT"
+}
